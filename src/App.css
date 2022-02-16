@@ -1,0 +1,61 @@
+*{
+  margin:0px;
+  padding:0px;
+}
+
+.container{
+  background-color: #ccc;
+  height: 100vh;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.todo-app{
+  background-color: #fff;
+  width: calc(100% * 3/9);
+  height: 460px;
+  border-radius: 5px;
+  box-shadow: 0px 5px 2px gray;
+  
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  color: #ccc;
+  border-bottom: 1px solid #ccc;
+}
+
+.schedule{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 24px;
+}
+
+.add button{
+  background-color: rgb(26, 165, 26);
+  border: none;
+  padding: 5px;
+  border-radius: 4px;
+  color: white;
+}
+
+.display{
+  margin-top: 24px;
+}
+
+.display-items{
+  display: flex;
+  justify-content: space-around;
+  margin: 8px 0px;
+}
+
+
+.del button{
+  background-color: rgb(187, 23, 23);
+  border: none;
+  padding: 4px;
+  border-radius: 4px;
+  color: white;
+}
